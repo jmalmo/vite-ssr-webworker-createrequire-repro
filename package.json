@@ -5,7 +5,7 @@
   "scripts": {
     "build": "vite build --ssr src/entry-worker.js --outDir dist",
     "check": "grep createRequire dist/entry-worker.js",
-    "preview": "npx wrangler dev dist/entry-worker.js --compatibility-flags nodejs_compat"
+    "preview": "npx wrangler dev"
   },
   "devDependencies": {
     "vite": "npm:rolldown-vite@^7.3.1",
